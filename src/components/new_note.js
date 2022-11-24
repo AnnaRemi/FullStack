@@ -11,8 +11,8 @@ export default function New_note() {
     <div className="container">
         <div>
             <button onClick={() => navigate("/newnote/new")} className='text box'>new note</button>
-            <button onClick={() => navigate("/")} className='text box'>...</button>
-            <button onClick={() => navigate("/")} className='text box'>...</button>
+            <button onClick={() => navigate("/newnote")} className='text box'>...</button>
+            <button onClick={() => navigate("/newnote")} className='text box'>...</button>
         </div>
     
     <button onClick={() => navigate("/")} className='text home'>

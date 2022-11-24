@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Reenie+Beanie:400");
+
+.background {
+    /* background-color: rgb(107,142,35); */
+    background-image: url('./images/IMG_7149.JPG');
+    display: flex;
+    height: 815px;
+    width: auto;
+  }
+
+  a {
+    color: black;
+  }
+  
+  a:hover {
+    color: forestgreen;
+  }
+
+  .small_box {
+    align-items: flex-start;
+    background-color: white;
+    border: 1px none;
+    display: flex;
+    width:350px;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 9px;
+    margin-left: 9px;
+  }
+
+
+  .big_box {
+    background-image: url('./images/dotted\ paper.png');
+    background-size: cover;
+    display: flex;
+    width:1450px;
+    height: 650px;
+    border-radius: 17px;
+    margin-left: 9px;
+    margin-bottom: 9px;
+    margin-top: 80px;
+    margin-right: 100px;
+  }
+
+  .text {
+    color: black;
+    font-family: "Reenie Beanie";
+    font-size: 49px;
+    margin-left: 9px;
+    margin-right: 9px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+
+.align {
+    justify-content: center;
+}
+
+.home {
+    margin-top: 29px;
+    margin-right: 29px; 
+    border-radius: 25px;
+    position:absolute;
+    top:0;
+    right:0;
+  }
+
+  .add {
+    position: absolute;
+    top:50%;
+    left: 100px;
+    width: 200px;
+    transform: translateY(-50%);
+    border-radius: 25px;
+  }
+
+  .delete {
+    position: absolute;
+    top:60%;
+    left: 100px;
+    width: 200px;
+    transform: translateY(-50%);
+    border-radius: 25px;
+  }

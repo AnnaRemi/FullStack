@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Reenie+Beanie:400");
+
+.container {
+    background-image: url(./images/IMG_5551.JPG);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 815px;
+    width: auto;
+  }
+
+  a {
+    color: black;
+  }
+  
+  a:hover {
+    color: forestgreen;
+  }
+
+  .box {
+    align-items: flex-start;
+    background-color: white;
+    border: 1px none;
+    display: flex;
+    width:800px;
+    height: 50px;
+    border-radius: 25px;
+  }
+
+  .text {
+    color: black;
+    font-family: "Reenie Beanie";
+    font-size: 49px;
+    margin-left: 9px;
+    margin-right: 9px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    justify-content: center;
+  }
+
+
+.align {
+    justify-content: center;
+}
+
+.home {
+    margin-top: 29px;
+    margin-right: 29px; 
+    border-radius: 25px;
+    position:absolute;
+    top:0;
+    right:0;
+  }

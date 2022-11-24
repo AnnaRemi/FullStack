@@ -1,0 +1,70 @@
+
+@import url("https://fonts.googleapis.com/css?family=Reenie+Beanie:400");
+  
+.Auth-form-container {
+  background-image: url(./images/IMG_5551.JPG);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 815px;
+  width: auto;
+}
+
+.text {
+  color: black;
+  font-family: "Reenie Beanie";
+  font-size: 49px;
+  padding: 0px;
+  margin-top: 29px;
+  font-weight: 350;
+}
+
+
+.align {
+  justify-content: center;
+}
+
+.home {
+margin-top: 29px;
+margin-right: 29px; 
+position:absolute;
+top:0;
+right:0;
+border-radius: 25px;
+}
+
+.Auth-form {
+  width: 525px;
+  padding-top: 3px;
+  padding-bottom: 19px;
+  border-radius: 19px;
+  background-color: rgb(52, B2, BF);
+}
+
+.Auth-form-content {
+  padding-left: 9%;
+  padding-right: 9%;
+}
+
+.Auth-form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  color: black;
+  font-weight: 800;
+}
+
+.home {
+  margin-top: 29px;
+  margin-right: 29px; 
+  position:absolute;
+  top:0;
+  right:0;
+  border-radius: 25px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+}

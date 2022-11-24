@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css?family=Reenie+Beanie:400");
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+  color: white;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.align {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.first-page {
+  align-items: flex-start;
+  background-color: white;
+  border: 1px none;
+  display: flex;
+  height: 1023px;
+  width: 1439px;
+}
+
+.background-1 {
+  align-items: flex-end;
+  background-image: url(./images/IMG_7193.JPG);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 1023px;
+  padding: 31px 41px;
+  width: 1439px;
+}
+
+.background-2 {
+  height: 175px;
+  margin-top: 4px;
+  position: relative;
+  width: 1342px;
+}
+
+.title {
+  color: white;
+  font-family: "Reenie Beanie";
+  font-size: 100px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  margin-top: 110px;
+  width: 1050px;
+}
+
+.learn_more,
+.log_in,
+.register {
+  height: 59px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  width: 361px;
+  background-color: transparent;
+  list-style: none;
+}
+
+.link_front {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 300px;
+  left: 979px;
+  min-width: 363px;
+  margin-top: 100px;
+  position: absolute;
+  top: 105px;
+}
+
+.flex_row {
+  align-items: flex-start;
+  display: flex;
+  gap: 168px;
+  height: 498px;
+  margin-top: 0px;
+  min-width: 1342px;
+}
+
+.intro {
+  color: white;
+  font-family: "Reenie Beanie";
+  font-size: 69px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 498px;
+  width: 850px;
+  margin-top: 150px;
+}
+
+.button_front {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-top: 210px;
+  min-width: 649px;
+  transition: all 0.2s ease-in;
+}
+
+.button_front:hover {
+  transform: scale(1.1);
+}
+
+.group {
+  align-items: flex-start;
+  background-color: white;
+  border-radius: 9px;
+  display: flex;
+  min-width: 647px;
+}
+
+.lets_start {
+  color: black;
+  font-family: "Reenie Beanie";
+  font-size: 100px;
+  font-weight: 400;
+  height: 120px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  width: 647px;
+}
+
+.text {
+  color: white;
+  font-family: "Reenie Beanie";
+  font-size: 59px;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 50%;
+}

@@ -30,7 +30,7 @@ export default function Note() {
                 home
             </button>
     <button onClick={() => navigate("/newnote/new")} className='text add'>
-        add sticker
+        save
     </button>
     <button onClick={() => navigate("/newnote")} className='text delete'>
         delete note

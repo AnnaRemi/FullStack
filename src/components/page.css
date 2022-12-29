@@ -33,7 +33,7 @@
     background-image: url('./images/dotted\ paper.png');
     background-size: cover;
     display: flex;
-    width:1450px;
+    width:950px;
     height: 650px;
     border-radius: 17px;
     margin-left: 9px;
@@ -69,7 +69,7 @@
   .add {
     position: absolute;
     top:50%;
-    left: 100px;
+    right: 100px;
     width: 200px;
     transform: translateY(-50%);
     border-radius: 25px;
@@ -78,7 +78,7 @@
   .delete {
     position: absolute;
     top:60%;
-    left: 100px;
+    right: 100px;
     width: 200px;
     transform: translateY(-50%);
     border-radius: 25px;

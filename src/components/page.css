@@ -66,20 +66,30 @@
     right:0;
   }
 
-  .add {
-    position: absolute;
-    top:50%;
-    right: 100px;
-    width: 200px;
-    transform: translateY(-50%);
+  .add{
+    width: 120px;
+    height: 70px;
     border-radius: 25px;
   }
 
   .delete {
-    position: absolute;
-    top:60%;
-    right: 100px;
-    width: 200px;
-    transform: translateY(-50%);
+    width: 100px;
+    height: 70px;
     border-radius: 25px;
+  }
+
+  .save{
+    width: 120px;
+    height: 55px;
+    border-radius: 25px;
+  }
+
+  .text_save {
+    color: black;
+    font-family: "Reenie Beanie";
+    font-size: 49px;
+    margin-left: 9px;
+    margin-right: 9px;
+    margin-top: 3px;
+    margin-bottom: 3px;
   }

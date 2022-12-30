@@ -13,7 +13,6 @@ import Log_in_page from './components/Log_in_page';
 import Learn_more from './components/Learn_more';
 import New_note from './components/new_note';
 import Sign_up from './components/Sign_up_page';
-import Note from './components/page';
 
 const router = createBrowserRouter([
   {
@@ -35,10 +34,6 @@ const router = createBrowserRouter([
   {
     path: "/newnote",
     element: <New_note />,
-  },
-  {
-    path: "/newnote/new",
-    element: <Note />,
   },
 ]);
 

@@ -1,7 +1,7 @@
 
 @import url("https://fonts.googleapis.com/css?family=Reenie+Beanie:400");
   
-.Auth-form-container {
+.Auth-form-container-sign-up {
   background-image: url(./images/IMG_5551.JPG);
   background-size: cover;
   display: flex;

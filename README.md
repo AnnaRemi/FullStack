@@ -1,7 +1,9 @@
 # FullStack
 Full stack course, 2022
 
-Welcome to MyNotes project! It's aim is to make a nice personal note manager. <br/>
+Welcome to MyNotes project! <br/> 
+Stack: Python Django RestFramework + React <br/> <br/>
+Its aim is to make a nice personal note manager. <br/>
 To make everything work do following in Terminal:
 ```
 cd back__end
